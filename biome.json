@@ -45,7 +45,14 @@
   },
   "overrides": [
     {
-      "include": ["next.config.js", "layout.tsx", "page.tsx", "loading.tsx", "error.tsx", "not-found.tsx"],
+      "include": [
+        "next.config.js",
+        "layout.tsx",
+        "page.tsx",
+        "loading.tsx",
+        "error.tsx",
+        "not-found.tsx"
+      ],
       "linter": {
         "rules": {
           "style": {
